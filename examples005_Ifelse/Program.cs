@@ -1,15 +1,13 @@
-﻿Console.WriteLine("Введите имя пользователя:");
-string username = Console.Readline();
+﻿Console.WriteLine("Tell me your name:");
+string username = Console.ReadLine();
 
-if(username == "Даша")
+if(username == "Dasha")
 {
-    Console.WriteLine("Ура, это же мой кiт!");
-
+    Console.WriteLine("Hello, kit");
 }
 
 else
 {
-    Console.Write("Привет, ");
+    Console.Write("Hello, ");
     Console.Write(username);
 }
-Console.WriteLine("Hello, World!");
